@@ -32,7 +32,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 300px;
+    gap: 530px;
+    flex-wrap: nowrap;
 }
 .logo img{
     margin: 15px;
@@ -78,8 +79,22 @@ body{
     background-size: cover;
     background-attachment: fixed;   
 }
-.header-img img{
-
-    
+.header-img-text {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    top: 125px;
+    left: 335px;
 }
 
+.header-img-text h1{
+    height: auto;
+    width: 550px;
+    font-size: 100px;
+    color: var(--color-yellow);
+}
+
+.header-img-text h1 strong{
+    font-style: italic;
+}
