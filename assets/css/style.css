@@ -80,7 +80,7 @@ body{
     background-attachment: fixed;   
 }
 .header-img-text {
-    display: flex;
+    display: inline-block;
     /* justify-content: center; */
     align-items: center;
     position: relative;
@@ -97,4 +97,28 @@ body{
 
 .header-img-text h1 strong{
     font-style: italic;
+}
+
+.header-img-text p{
+    height: auto;
+    width: 450px;
+    font-size: 30px;
+    color: var(--color-white);
+}
+
+.header-img-text p strong{
+    color: var(--color-yellow);
+}
+
+.header-img-text-button{
+    background-color: var(--color-yellow);
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid var(--color-meteorite-dark);
+}
+
+.header-img-text-button :hover{
+    color: var(--color-white);
 }
