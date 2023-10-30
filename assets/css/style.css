@@ -125,6 +125,8 @@ body{
 }
 
 #about-us{
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 580px;
     background-color: var(--color-black);
@@ -132,18 +134,41 @@ body{
 
 .about-us-text {
     display: inline-block;
-    /* justify-content: center; */
     align-items: center;
-    position: relative;
-    top: 105px;
-    left: 335px;
 }
 
 .about-us-text h1{
     color: var(--color-white);
     font-size: 55px;
+    position: relative;
+    top: 105px;
+    left: 335px;
 }
 
 .about-us-text h1 strong{
     color: var(--color-yellow);
+}
+
+.about-us-text p{
+    height: auto;
+    width: 400px;
+    font-size: 22px;
+    color: var(--color-white);
+    position: relative;
+    top: 105px;
+    left: 335px;
+}
+
+.about-us-text p strong{
+    color: var(--color-yellow);
+    font-weight: normal;
+}
+
+.about-us-img{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    height: 420px;
+    width: 100%;
 }
